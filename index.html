@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Weather</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Today's Weather</h1>
+    </div>
+    <div class="current box">
+        <h2>Current Weather for <span id="location"></span></h2>
+    </div>
+    <div class="temp box">
+        <h2>Temperature: <span id="temp"></span> degrees</h2>
+    </div>
+    <div class="wind box">
+        <h2>Wind: <span id="wind"></span> mph</h2>
+    </div>
+    <div class="sky box">
+        <h2>Sky Conditions: <span id="sky"></span></h2>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"> </script>
+    <script src="weather.js"></script>
+    
+</body>
+</html>
