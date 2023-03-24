@@ -1,7 +1,7 @@
 "use script"
 
 
-const url = "http://api.openweathermap.org/data/2.5/weather?q=Atlanta&APPID=b4c2ff958707416e034ac70770bc1001"
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Atlanta&APPID=b4c2ff958707416e034ac70770bc1001"
 
 $.ajax ({
     url: url,
